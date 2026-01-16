@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boot-container
-          image: guntinue/argocd-pipe:2
+          image: guntinue/argocd-pipe:3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
